@@ -1,0 +1,23 @@
+.carousel {
+    padding: 2rem 0;
+}
+
+
+.carousel img {
+    height: 90vh;
+    object-fit: cover;
+
+}
+
+.carousel:hover {
+    transform: scale(0.99);
+    z-index: 10;
+    transition-duration: 0.5s ease-out-in;
+    transition: transform 0.5s;
+}
+
+
+.thumbs-wrapper,
+.carousel-status {
+    display: none;
+}
